@@ -22,8 +22,9 @@ button{
 }
 li{
   padding:5px;    
-  list-style:disc; 
+  list-style:square; 
   margin:5px;
-  cursor:pointer
+  cursor:pointer;
+  background:#ff4d4d;
 
 }

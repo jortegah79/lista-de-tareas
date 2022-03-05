@@ -109,9 +109,9 @@ class Agenda extends React.Component {
   const Tareas = props => {
     const lista = props.tareas.map((elem, ind) => {
       return (
-        <li key={ind} onClick={props.click} placeholder="pincha aqui" >
+        <li key={ind} onClick={props.click} className="bordeRedondo" placeholder="pincha aqui" >
           <h4 id={ind} className='text-white' >{elem.tarea}</h4>
-          <p className='text-warning'>{elem.comentarios}</p>
+          <p className="text-light">{elem.comentarios}</p>
         </li>
       )
     });
